@@ -38,7 +38,7 @@ $(function()
         ],
         albumArtworks = ['_1'],
         trackUrl = [
-            'https://raw.githubusercontent.com/BELTANE666/BELTANE666.github.io/master/Beltane/various/BuslasBann.mp3'
+            'https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/BuslasBann.mp3'
 	],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
