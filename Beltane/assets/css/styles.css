@@ -63,6 +63,8 @@ div.imageFlag {
    align-content: center;
    align-items: center;
    justify-items: center;
+}
+div.imageFlag table td.nicknames {
    color: #FFFFFF!important;
 }
 
