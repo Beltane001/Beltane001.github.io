@@ -255,7 +255,7 @@ $(function()
 		selectTrack(0);
 		
 		audio.loop = true; //
-		audio.play;
+		audio.play();
 		playPauseButton.on('click',playPause);
 		
 		sArea.mousemove(function(event){ showHover(event); });
