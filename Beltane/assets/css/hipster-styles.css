@@ -452,7 +452,7 @@ strong {
   .page-wrap {
     float: none;
     position: absolute;
-    top: 33.33%;
+    top: 45.33%; //33.33%;
     left: 50%;
     max-width: 900px;
     margin-left: -450px;
