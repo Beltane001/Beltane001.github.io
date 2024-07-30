@@ -31,10 +31,10 @@ $(function()
         buffInterval = null,
         tFlag = false,
         albums = [
-            'Drif'
+            'The Edge of Darkness'
         ],
         trackNames = [
-            'Heilung - Buslas Bann'
+            "Gundry - Salem's Secret"
         ],
         albumArtworks = ['_1'],
         trackUrl = [
