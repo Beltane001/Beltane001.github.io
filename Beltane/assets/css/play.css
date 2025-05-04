@@ -378,7 +378,7 @@ body
     height: 26px;
     padding: 25px;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 50%;
     cursor: pointer;
 }
 
