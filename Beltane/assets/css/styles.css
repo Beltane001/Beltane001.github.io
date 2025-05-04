@@ -79,6 +79,7 @@ div.containerAudio {
 iframe.iframeAudio {
    width: 370px!important; /* 430px */
    height: 192px!important;
+   border-radius: 4%;
    overflow: hidden;
 }
 divcontext-menu ul li span {
