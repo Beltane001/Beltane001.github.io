@@ -34,7 +34,7 @@ $(function()
             ''
         ],
         trackNames = [
-            "pontos.riscados.mp3"
+            ""
         ],
         albumArtworks = ['_1'],
         trackUrl = [
