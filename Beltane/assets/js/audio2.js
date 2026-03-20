@@ -38,7 +38,7 @@ $(function()
         ],
         albumArtworks = ['_1'],
         trackUrl = [
-            'https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/Casa_de_Lei.mp3'
+            'https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/Mein_Herz_brennt.mp3'
 	],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
