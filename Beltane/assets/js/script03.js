@@ -161,9 +161,9 @@ function prevPanel() {
 
 // 6. Lógica del Reproductor de Música (Playlist Automática y en Bucle)
 const playlist = [
-    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "Mein_Herz_brennt.mp3" },
-    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "Mein_Herz_brennt.mp3" },
-    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "Mein_Herz_brennt.mp3" }
+    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/Mein_Herz_brennt.mp3" },
+    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/Mein_Herz_brennt.mp3" },
+    { title: "Mein Herz Brennt", artist: "Rammstein", cover: "https://i.ibb.co/xqwg3bVg/IMG-5447.jpg", src: "https://raw.githubusercontent.com/Beltane001/Beltane001.github.io/master/Beltane/assets/audio/Mein_Herz_brennt.mp3" }
 ];
 
 let currentSongIndex = 0;
