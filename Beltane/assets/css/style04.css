@@ -32,23 +32,14 @@ body {
   height: 100vh;
   z-index: 0;
   overflow: hidden;
-  pointer-events: none;
+  pointer-events: none; /* Disabilita le interazioni del mouse con il video */
 }
 
-.video-background iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  
-  width: 100vw;
-  height: 100vh;
-  
-  min-width: 177.77vh; /* (16/9 * 100vh) */
-  min-height: 56.25vw;  /* (9/16 * 100vw) */
-  
-  transform: translate(-50%, -50%) scale(1.15);
-  
-  border: none;
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Taglia e adatta automaticamente il video a tutto schermo */
+  object-position: center; /* Mantiene il video centrato */
 }
 
 /* --- TARJETA PRINCIPAL (Sopra il video) --- */
