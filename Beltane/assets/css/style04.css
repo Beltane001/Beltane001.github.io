@@ -24,7 +24,6 @@ body {
   position: relative;
 }
 
-/* --- SFONDO VIDEO TOTALE AL 100% --- */
 .video-background {
   position: fixed;
   top: 0;
@@ -33,18 +32,23 @@ body {
   height: 100vh;
   z-index: 0;
   overflow: hidden;
-  pointer-events: none; /* Disabilita i clic sul video */
+  pointer-events: none;
 }
 
 .video-background iframe {
   position: absolute;
   top: 50%;
   left: 50%;
+  
   width: 100vw;
-  height: 56.25vw; /* Rapporto 16:9 */
-  min-height: 100vh;
-  min-width: 177.77vh; /* Rapporto 16:9 invertito */
-  transform: translate(-50%, -50%);
+  height: 100vh;
+  
+  min-width: 177.77vh; /* (16/9 * 100vh) */
+  min-height: 56.25vw;  /* (9/16 * 100vw) */
+  
+  transform: translate(-50%, -50%) scale(1.15);
+  
+  border: none;
 }
 
 /* --- TARJETA PRINCIPAL (Sopra il video) --- */
