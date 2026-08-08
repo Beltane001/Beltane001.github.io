@@ -24,7 +24,7 @@ body {
   position: relative;
 }
 
-/*.video-background {
+.video-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -40,9 +40,9 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-}*/
+}
 
-.video-background {
+/*.video-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -50,7 +50,7 @@ body {
   height: 100vh;
   z-index: 0;
   overflow: hidden;
-  pointer-events: none; /* Disabilita i clic sul video */
+  pointer-events: none;
 }
 
 .video-background iframe {
@@ -58,11 +58,11 @@ body {
   top: 50%;
   left: 50%;
   width: 100vw;
-  height: 56.25vw; /* Rapporto 16:9 */
+  height: 56.25vw;
   min-height: 100vh;
-  min-width: 177.77vh; /* Rapporto 16:9 invertito */
+  min-width: 177.77vh;
   transform: translate(-50%, -50%);
-}
+}*/
 
 /* --- TARJETA PRINCIPAL (Sopra il video) --- */
 .profile-card {
