@@ -85,7 +85,7 @@ body {
   min-width: 177.77vh; 
   min-height: 56.25vw;
   
-  /*transform: translate(-50%, -50%) scale(1.15);*/
+  transform: translate(-50%, -50%); /*scale(1.15);*/
   border: none;
 }
 
